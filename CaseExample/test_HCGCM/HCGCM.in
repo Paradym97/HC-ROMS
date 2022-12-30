@@ -1,0 +1,12 @@
+&ocn_filter
+     grid_input  = 'soda_19970101_ini_new.nc'
+     lon_name    = 'lon_rho'
+     lat_name    = 'lat_rho'
+     filter_name = 'sst_sma'
+     filter_dx   = 0
+     filter_dy   = 0
+     filter_nx   = 20
+     filter_ny   = 20
+     filter_tolerance = 1.e-01
+     filter_miss_opt  = 0
+/
